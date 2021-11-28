@@ -1,0 +1,498 @@
+.fundo_modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    pointer-events: visible;
+}
+
+.fundo_modal2 {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    pointer-events: visible;
+}
+
+.modal2 {
+    width: 450px;
+    height: 480px;
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.modal3 {
+    width: 450px;
+    height: 480px;
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.contfunçoes>i {
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.contfunçoes>i:active {
+    opacity: 0.5;
+}
+
+.linhafechar {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-top: 15px;
+}
+
+.linhafechar>span {
+    font-size: 15px;
+    font-family: 'arial';
+    width: 98%;
+    text-align: center;
+    padding-left: 5%;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: red;
+    text-decoration: black 1px underline;
+    padding-top: 5px;
+}
+
+.butaofecharmodal {
+    display: flex;
+    background-color: red;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.butaofecharmodal:active {
+    opacity: 0.5;
+}
+
+.butaofecharmodal>span {
+    color: white;
+    font-weight: 600;
+}
+
+.navbar-brand> :first-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: 600;
+}
+
+.titutoinicio {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.containerestado>img {
+    display: none;
+}
+
+.contcidade_img {
+    display: flex;
+    flex-direction: column;
+}
+
+.contcidade_img>span {
+    word-break: break-all;
+    width: 100%;
+}
+
+.itemslista {
+    align-items: center;
+    justify-content: center;
+}
+
+.msglsita {
+    width: 100%;
+    word-break: break-all;
+}
+
+.itemslista>div {
+    text-align: center;
+    border: black 2px solid;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    display: flex;
+    word-break: break-all;
+}
+
+.contcidade_img>img {
+    max-height: 150px !important;
+}
+
+.containerformulariomodal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 380px;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid red;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.containerestado {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerestado>img {
+    width: 30px;
+    height: 30px;
+}
+
+.containerestado>input {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid red;
+    color: blue;
+}
+
+.containerestado>span {
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+
+.containerestado>select {
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid red;
+    color: blue;
+}
+
+.containerestado>textarea {
+    width: 100%;
+    height: 100px !important;
+    border-radius: 5px;
+    border: 2px solid red;
+    color: blue;
+}
+
+.titutoinicio>span {
+    color: white;
+    font-size: 32px;
+    letter-spacing: 5px;
+    text-decoration: underline;
+    font-weight: 600;
+    text-align: center;
+    background-color: red;
+    width: 460px;
+    border-radius: 15px;
+}
+
+#salvar {
+    height: 38px;
+    width: 200px;
+    border-radius: 10px;
+    background-color: #ed3237;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none
+}
+
+#salvar:active {
+    opacity: 0.5;
+}
+
+.adicionarinicio2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+.adicionarinicio2> :nth-child(3) {
+    height: 0px;
+    border-right: red 2px solid;
+    border-top-right-radius: 20px;
+}
+
+.adicionarinicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 40px;
+    border-top: #990000 2px solid;
+    border-right: #990000 2px solid;
+    border-left: #990000 2px solid;
+    border-bottom: #990000 2px solid;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #990000;
+}
+
+.adicionarinicio:active {
+    opacity: 0.5;
+}
+
+.adicionarinicio>span {
+    margin-right: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.adicionarinicio>i {
+    color: white;
+}
+
+.headertableinicio {}
+
+.headertableinicio>div {
+    text-align: center;
+    border-top: red 2px solid;
+    border-right: red 2px solid;
+    border-bottom: red 2px solid;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headertableinicio>div:first-child {
+    border-top: red 2px solid;
+    border-right: red 2px solid;
+    border-left: red 2px solid;
+    height: 60px;
+}
+
+.nav-item {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navbar-nav {
+    padding-top: 20px;
+}
+
+.butaomenuheader {
+    width: 45px;
+    height: 40px;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.butaomenuheader:active {
+    border: 3px solid black;
+}
+
+.butaomenuheader>i {
+    font-size: 25px;
+    color: #ed3237;
+}
+
+.navbar-brand> :first-child> :first-child {
+    background-color: white;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+.navbar-brand> :first-child> :first-child>img {
+    width: 60px;
+}
+
+.navbar-brand> :first-child> :last-child {
+    color: white;
+    font-size: 24px;
+    letter-spacing: 5px;
+    margin-left: 10px;
+    text-decoration: white 1px underline;
+}
+
+.order {
+    line-height: 75px;
+    text-align: center;
+    opacity: 1;
+    color: #fff;
+    border-radius: 50%;
+    -webkit-animation: bounce .5s infinite alternate;
+    -moz-animation: bounce .5s infinite alternate;
+    animation: bounce .5s infinite alternate;
+}
+
+@-webkit-keyframes bounce {
+    to {
+        -webkit-transform: scale(1.2);
+    }
+}
+
+@-moz-keyframes bounce {
+    to {
+        -moz-transform: scale(1.2);
+    }
+}
+
+@keyframes bounce {
+    to {
+        transform: scale(1.2);
+    }
+}
+
+.containerloading {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    align-items: center;
+    padding-top: 15%;
+}
+
+.containerloading> :first-child {
+    width: 350px;
+}
+
+.containerloading> :last-child {
+    width: 350px;
+    margin-bottom: -90px;
+}
+
+.tituloaboutus {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #FFF;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-decoration: #fff underline 2px;
+}
+
+.contituloabout {
+    width: 360px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border-radius: 12px;
+}
+
+.alinhasnocentro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoaboutcont {
+    width: 70%;
+    border: #ed3237 2px solid;
+    border-radius: 5px;
+    margin-top: 80px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoaboutcont>span {
+    width: 80%;
+    text-align: center;
+    font-size: 20px;
+    color: #ed3237;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+
+@media (min-width:577px) and (max-width:1500px) {
+    .containerloading> :first-child {
+        width: 250px;
+    }
+    .containerloading> :last-child {
+        width: 250px;
+        margin-bottom: -90px;
+    }
+}
+
+@media (max-width:576px) {
+    .msglsita {
+        width: 100%;
+        word-break: break-all;
+        font-size: 0.8rem;
+    }
+    .textoaboutcont {
+        width: 100%;
+        border: #ed3237 2px solid;
+        border-radius: 5px;
+        margin-top: 80px;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .textoaboutcont>span {
+        font-size: 16px;
+    }
+    .row {
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+    .containerloading> :first-child {
+        width: 250px;
+    }
+    .containerloading> :last-child {
+        width: 250px;
+        margin-bottom: -40px;
+    }
+    .containerloading {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+        padding-top: 35%;
+    }
+    .navbar-brand> :first-child {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
